@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg stick-top p-4">
+    <header class="navbar navbar-expand-lg stick-top p-3">
         <div class="container">
             <h1 class="navbar-brand m-0">Nome do restaurante</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <nav class="navbar-collapse collapse justify-content-end mt-3" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
                         <a href="" class="nav-link active">
@@ -48,6 +48,21 @@
             </nav>
         </div>
     </header>
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="./images/slides/slide1.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slides/slide2.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slides/slide3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
