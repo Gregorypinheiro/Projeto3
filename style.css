@@ -24,3 +24,8 @@ body {
 .navbar-toggler {
     background-color: #ffeae6;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
