@@ -22,11 +22,6 @@ body {
     background-color: #ffeae6;
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: auto;
-}
-
 .section-title {
     font-family: Pacifico, cursive;
 }
@@ -72,3 +67,19 @@ body {
     transform: scale(0.95); /* Diminui ligeiramente o tamanho do botão */
 }
 
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        }
+    #fale-conosco {
+        margin-bottom: 300px;
+    }
+    }   
+    
