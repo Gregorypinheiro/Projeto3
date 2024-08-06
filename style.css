@@ -62,3 +62,13 @@ body {
     text-decoration: none;
 }
 
+.btn {
+    transition: all 0.3s ease; /* Suaviza a transição */
+    
+}
+
+.btn:hover {
+    border: 2px solid #ff8800; /* Altera a cor da borda ao passar o mouse */
+    transform: scale(0.95); /* Diminui ligeiramente o tamanho do botão */
+}
+
